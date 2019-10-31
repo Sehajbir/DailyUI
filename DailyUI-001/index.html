@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Title Page</title>
+
+        <!-- Bootstrap CSS -->
+        <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css"> 
+        <link href="https://fonts.googleapis.com/css?family=Lato:400,700&display=swap" rel="stylesheet"> 
+        <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+        <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+        <!--[if lt IE 9]>
+            <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.3/html5shiv.js"></script>
+            <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+        <![endif]-->
+        <style>
+            html, body {
+                height:100%;
+                width:100%;
+                margin:0;
+                padding:0;
+            }
+            .desktop, .tablet{
+                background-image: url("assets/img/desktop-bg.jpg");
+                background-attachment: fixed;
+                /* background-position: center; */
+                background-size: cover;
+                height: 100%;
+            }
+            .mobile{
+                background-image: url("assets/img/mobile-bg.jpg");
+                background-attachment: fixed;
+                /* background-position: center; */
+                background-size: cover;
+                height: 100%;
+            }
+            a:hover{
+                text-decoration: none;
+                color: black;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="desktop w3-hide-medium w3-hide-small">
+            <div class="w3-row">
+                <div class="w3-twothird" style="background-color: rgba(54,53,53,0.42); height: 100vh;">
+                    <img src="assets/img/logo.png" style="width: 35%; margin-top: 25px; margin-left: 25px;"> 
+                </div>
+                <div class="w3-third" style="background-color: white; height: 100vh;">
+                    <div class="container" style="width: 75%; border: 1px solid #707070; height: 60vh; margin-top: 20vh;">
+                        <h1 class="w3-center" style="font-family: 'Lato', sans-serif; font-size: 6vh; font-weight: bold;">Login</h1>
+                        <div class="container" style="width: 95%; margin-top: 30px;">
+                            <p style="font-family: 'Lato', sans-serif; font-size: 2vh;">Email</p>
+                            <input style="border-radius: 2vh; height: 6vh; width: 100%; border: 1px solid #707070;">
+                            <p style="font-family: 'Lato', sans-serif; margin-top: 2.5vh; font-size: 2vh;">Password</p>
+                            <input style="border-radius: 2vh; height: 6vh; width: 100%; border: 1px solid #707070;">
+                            
+                        </div>
+                        <button style="margin-left: 20%; background: #4D4D4D; border: #707070; color: white; width: 60%; margin-top: 5vh; height: 5.5vh; border-radius: 14px;"><p style="font-family: 'Lato', sans-serif; font-weight: bold; font-size: 2.5vh; margin: auto;">Login</p></button>
+                        <div class="w3-center" style="margin-top: 30px;">
+                            <h4 style="font-family: 'Lato', sans-serif; font-size: 13px;">Not a Member?</h4>
+                            <h4 style="font-family: 'Lato', sans-serif; font-weight: bold; font-size: 15px;">
+                                <a href="signup.html">Sign Up!</a>
+                            </h4>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div> 
+        <div class="mobile w3-hide-medium w3-hide-large">
+            <div class="container" style="background-color: rgba(54,53,53,0.42); height: 100vh;">
+                <div class="container" style="margin-top: 25vh;">
+                    <img src="assets/img/logo.png" style="width: 60%;  margin-left: 20%;">
+                </div>
+                <div class="container" style="margin-top:50vh">
+                    <button style="width: 65%; height: 6vh; margin-left: 17.5%; border: 1px solid #707070; border-radius: 17px; background-color: #6A6A6A;"><p style="font-family: 'Lato', sans-serif; margin: auto; color: white; font-size: 2.25vh; font-weight: bold;">Login</p></button>
+                    <div class="w3-center">
+                    <h4 style="font-family: 'Lato', sans-serif; font-size: 13px; color: white;">Not a Member?</h4>
+                    <h4 style="font-family: 'Lato', sans-serif; font-weight: bold; font-size: 15px; color: white;">
+                        <a href="signup.html">Sign Up!</a>
+                    </h4>
+                </div>
+                </div>
+            </div>
+        </div>
+        <div class="tablet w3-hide-large w3-hide-small">
+                <div class="w3-row">
+                    <div class="w3-twothird" style="background-color: rgba(54,53,53,0.42); height: 100vh;">
+                        <img src="assets/img/logo.png" style="width: 35%; margin-top: 25px; margin-left: 25px;"> 
+                    </div>
+                    <div class="w3-third" style="background-color: white; height: 100vh;">
+                        <div class="container" style="width: 75%; border: 1px solid #707070; height: 66vh; margin-top: 20vh;">
+                            <h1 class="w3-center" style="font-family: 'Lato', sans-serif; font-size: 6vh; font-weight: bold;">Login</h1>
+                            <div class="container" style="width: 95%; margin-top: 30px;">
+                                <p style="font-family: 'Lato', sans-serif; font-size: 2vh;">Email</p>
+                                <input style="border-radius: 2vh; height: 6vh; width: 100%; border: 1px solid #707070;">
+                                <p style="font-family: 'Lato', sans-serif; margin-top: 2.5vh; font-size: 2vh;">Password</p>
+                                <input style="border-radius: 2vh; height: 6vh; width: 100%; border: 1px solid #707070;">
+                                
+                            </div>
+                            <button style="margin-left: 20%; background: #4D4D4D; border: #707070; color: white; width: 60%; margin-top: 5vh; height: 5.5vh; border-radius: 14px;"><p style="font-family: 'Lato', sans-serif; font-weight: bold; font-size: 2.5vh; margin: auto;">Login</p></button>
+                            <div class="w3-center" style="margin-top: 2vh;">
+                                <h4 style="font-family: 'Lato', sans-serif; font-size: 2.8vh;">Not a Member?</h4>
+                                <h4 style="font-family: 'Lato', sans-serif; font-weight: bold; font-size: 3vh;">
+                                    <a href="signup.html">Sign Up!</a>
+                                </h4>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        <!-- jQuery -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+        <!-- Bootstrap JavaScript -->
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    </body>
+</html>
