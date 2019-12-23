@@ -1,4 +1,4 @@
-**Daily UI 021**
+**Daily UI 020**
 
 
 **1**
@@ -7,4 +7,4 @@
 
 **2**
 
-![](https://raw.githubusercontent.com/Sehajbir/DailyUI/master/DailyUI-020/1.png)
+![](https://raw.githubusercontent.com/Sehajbir/DailyUI/master/DailyUI-020/2.png)
